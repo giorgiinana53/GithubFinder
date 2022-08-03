@@ -1,0 +1,37 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/c891029cf9.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="responsive.css"> 
+    <title>GitHub Finder</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="navbar__container">
+                <a href="./index.html">GitHub Finder</a>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="search">
+            <div class="search__card">
+                <h1>Search GithHub Users</h1>
+                <p class="lead">Enter a username to fetch a user profile and repos</p>
+                <br>
+                <input type="text" id="searchUser" class="search__card__form--control" placeholder="GitHub Username..."> 
+            </div>
+        </div>
+        <div id="profile"></div>
+    </main>
+    <footer id= "footer">
+        <div>GitHub Finder &copy;</div>
+    </footer>
+    <script src="github.js"></script>
+    <script src="ui.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>

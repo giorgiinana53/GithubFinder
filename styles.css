@@ -1,0 +1,253 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100vw;
+    height: 100%;
+    overflow-x: hidden;
+    font-family: sans-serif;
+}
+
+/*  ----Start--Header---- */
+
+header {
+    width: 100%;
+    display: flex;
+    background-color: #c7d3d4ff;
+    padding: 15px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+}
+
+header a {
+    text-decoration: none;
+    font-size: 20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0 100px;
+    color: #603f83ff;
+}
+
+/*  ----Finish--Header---- */
+
+
+
+/* ----Start--Main---- */ 
+
+
+main, footer {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.search {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 20px 0;
+}
+
+.search__card, #profile {
+    margin: 0 230px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.search__card {
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+
+p, h1 {
+    font-family: sans-serif;
+}
+
+
+input {
+    width: 99%;
+    padding: 5px 0;
+    padding-left: 5px;
+    margin-right: 20px;
+    outline: none;
+}
+
+.search__card {
+    padding: 0 20px;
+    padding: 10px;
+}
+
+img {
+    width: 250px;
+    border-radius: 5px;
+}
+
+table, tr, td {
+    border-collapse: separate;
+    border-spacing: 0;
+    text-decoration: none;
+}
+
+td {
+    padding: 3px;
+    border: 1px solid black;
+}
+
+table {
+    border-collapse:collapse;
+    border-radius: 10px;
+    border-style: hidden;
+    width: 100%;
+    margin-top: 8px;
+}
+
+   
+table {
+    border-collapse: separate;
+    border-spacing: 0;
+    min-width: 350px;
+}
+
+table tr,
+table tr td {
+    border-right: 1px solid #bbb;
+    border-bottom: 1px solid #bbb;
+    padding: 5px;
+}
+  
+table tr td:first-child {
+    border-left: 1px solid #bbb;
+    border-top:none;
+}
+
+table tr td:first-child {
+    border-left: 1px solid #bbb;
+}
+  
+  /* top-left border-radius */
+table tr:first-child td:first-child {
+    border-top-left-radius: 6px;
+    border-top: 1px solid #bbb;
+}
+  
+  /* top-right border-radius */
+table tr:first-child td:last-child {
+    border-top-right-radius: 5px;
+}
+  
+  /* bottom-left border-radius */
+table tr:last-child td:first-child {
+    border-bottom-left-radius: 5px;
+}
+  
+  /* bottom-right border-radius */
+table tr:last-child td:last-child {
+    border-bottom-right-radius: 5px;
+}
+  
+
+.container__card__row {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.container__card__row__inf__btn {
+    display: flex;
+    justify-content: center;
+    padding: 8px 8px;
+    background-color: #0000FF;
+    border-radius: 6px;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 15px;
+    transition: 0.2s ease-in-out;
+    color: white;
+    font-weight: 600;
+}
+
+.container__card__row__inf__btn:hover {
+    background-color: #6666f3;
+}
+
+.container__card__row__inf2 {
+    display: block;
+    width: 100%;
+    padding: 5px;
+}
+
+.container__card__row__inf2 span {
+    padding: 5px;
+    background-color: red;
+    border-radius: 5px;
+    color: white;
+}
+
+.container__card__row__inf2 span:nth-child(1) {
+    background-color:#5252f0;
+}
+
+.container__card__row__inf2 span:nth-child(2) {
+    background-color: rgb(165, 165, 165);
+}
+
+.container__card__row__inf2 span:nth-child(3) {
+    background-color: rgb(52, 155, 52);
+}
+
+.container__card, .card {
+    padding: 5px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    border-radius: 5px;
+}
+
+.card {
+    margin-top: 10px;
+}
+
+.card-body__row {
+    display: flex;
+    padding: 5px;
+    justify-content: space-between;
+}
+
+.card-body__row__1 a{
+    text-decoration: none;
+}
+
+.badge {
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.card-body__row__2 span:nth-child(1) {
+    background-color:#5252f0;
+}
+
+.card-body__row__2 span:nth-child(2) {
+    background-color: rgb(165, 165, 165);
+}
+
+.card-body__row__2 span:nth-child(3) {
+    background-color: rgb(52, 155, 52);
+}
+
+.alert {
+    margin: 0 230px;
+    background-color: #ed4337;
+}
+
+
+/* ----Finish--Main---- */ 
+
+/* ----Footer---- */
+
+footer {
+    text-align: center;
+    width: 100%;
+    padding: 15px;
+    border-bottom: 2px solid grey;
+    border-top: 2px solid grey;
+    background-color: #c7d3d4ff;
+    margin-top: 5px;
+    font-family: sans-serif;
+}
